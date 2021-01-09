@@ -303,10 +303,42 @@ label {
 }
 
 
+/* button */
+
+.s-btn {
+    background: #056c5f;
+    display: inline-block;
+    color: #fff;
+    height: 65px;
+    padding: 0 50px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 65px;
+    border-radius: 0 50px 50px 50px;
+    transition: .3s;
+}
+
+.btn-white {
+    background: #fff;
+    color: #056c5f;
+    transition: .3s;
+}
+
+.s-btn:hover {
+    background: #f8a683;
+    color: #fff;
+}
+
+
 /* main css */
 
 
 /* header */
+
+.header-area {
+    background: #1a6660;
+}
 
 .transparent-header {
     position: absolute;
@@ -348,6 +380,7 @@ label {
     text-transform: uppercase;
     padding: 34px 0;
     display: block;
+    font-family: 'Open Sans';
 }
 
 .main-menu ul li:hover a {
@@ -409,8 +442,8 @@ label {
 }
 
 .header-bar span {
-    background: red;
-    height: 3px;
+    background: #37897f;
+    height: 2px;
     width: 24px;
     display: block;
     margin-top: 5px;
@@ -426,4 +459,39 @@ label {
 
 .header-bar:hover span {
     width: 24px;
+}
+
+
+/* slider area */
+
+.slider-area {
+    background: url(../img/slider/slider.png);
+}
+
+.single-slider {
+    min-height: 1030px;
+}
+
+.slider-content {
+    padding-left: 120px;
+}
+
+.slider-content span {
+    color: #eea676;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    display: block;
+}
+
+.slider-content h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 105px;
+    line-height: 1;
+    margin-bottom: 60px;
+}
+
+.slick-slide img {
+    display: inline-block;
 }
