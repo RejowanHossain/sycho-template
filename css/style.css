@@ -100,11 +100,10 @@ h4,
 h5,
 h6 {
     font-family: 'Cormorant Garamond', serif;
-    font-weight: normal;
     color: #005040;
     margin-top: 0px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: normal;
 }
 
@@ -338,6 +337,7 @@ label {
 
 .header-area {
     background: #1a6660;
+    z-index: 999;
 }
 
 .transparent-header {
@@ -495,3 +495,42 @@ label {
 .slick-slide img {
     display: inline-block;
 }
+
+
+/* feature starts */
+
+.features-area {
+    background: url(../img/bg/feature-bg.png);
+}
+
+.feature-row .col-xl-4 {
+    border-right: 1px solid #fff;
+    text-align: center;
+}
+
+.feature-item {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.feature-icon {
+    margin-right: 35px;
+}
+
+.feature-content h3 {
+    font-size: 30px;
+    margin-bottom: 13px;
+}
+
+.feature-content p {
+    color: #54716d;
+    font-size: 16px;
+    margin: 0;
+}
+
+.features-area-border {
+    border-bottom: 1px solid #fff;
+}
+
+
+/* feature ends */
